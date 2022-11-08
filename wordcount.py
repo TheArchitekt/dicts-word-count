@@ -14,3 +14,6 @@ def word_count(input_file):
 
         for word in words:
             my_dict[word] = my_dict.get(word, 0) + 1
+
+    for word, count in my_dict.items():
+        print(word, count)
