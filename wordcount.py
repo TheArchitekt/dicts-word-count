@@ -5,3 +5,5 @@ input_file = sys.argv[1]
 def word_count(input_file):
 
     my_dict = {}
+
+    for line in input_file:
