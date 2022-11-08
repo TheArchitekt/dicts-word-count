@@ -1,5 +1,5 @@
 import sys
-input_file = sys.argv[1]
+
 """Count words in file."""
 
 def word_count(input_file):
@@ -22,7 +22,7 @@ def word_count(input_file):
     for word, count in my_dict.items():
         print(word, count)
 
-    print(my_dict)
-
-word_count('tests.txt')
+word_count('test.txt')
 word_count('twain.txt')
+
+input_file = sys.argv[1]
