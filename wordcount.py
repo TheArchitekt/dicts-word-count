@@ -2,5 +2,4 @@ import sys
 input_file = sys.argv[1]
 """Count words in file."""
 
-
-# put your code here.
+def word_count(input_file):
