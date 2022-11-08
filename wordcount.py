@@ -4,6 +4,8 @@ input_file = sys.argv[1]
 
 def word_count(input_file):
 
+    input_file = open(input_file)
+
     my_dict = {}
 
 
@@ -21,3 +23,6 @@ def word_count(input_file):
         print(word, count)
 
     print(my_dict)
+
+word_count('tests.txt')
+word_count('twain.txt')
